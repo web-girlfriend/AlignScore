@@ -98,7 +98,7 @@ DATASET_CONFIG = {
     'quoref': {'task': 'qa', 'huggingface': True},
     'hotpot_qa_distractor': {'task': 'qa', 'huggingface': True},
     'hotpot_qa_fullwiki': {'task': 'qa', 'huggingface': True},
-    'newsqa': {'task': 'qa',  'using_json': True, 'raw_json': True, 'data_path': 'data/newsqa_raw/combined-newsqa-data-v1.json'},
+    #'newsqa': {'task': 'qa',  'using_json': True, 'raw_json': True, 'data_path': 'data/newsqa_raw/combined-newsqa-data-v1.json'},
     'ropes': {'task': 'qa', 'huggingface': True},
     'boolq': {'task': 'qa', 'huggingface': True},
     'eraser_multi_rc': {'task': 'qa', 'huggingface': True},
