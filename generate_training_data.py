@@ -287,7 +287,7 @@ class DataGenerator():
         for each_dataset in self.dataset_names:
             if DATASET_CONFIG[each_dataset].get('huggingface'):
                 self.datasets[each_dataset] = load_dataset(
-                    *DATASET_HUGGINGFACE[each_dataset][:-1], cache_dir="./data/traing")[DATASET_HUGGINGFACE[each_dataset][-1]]
+                    *DATASET_HUGGINGFACE[each_dataset][:-1], cache_dir="./data/training")[DATASET_HUGGINGFACE[each_dataset][-1]]
             elif DATASET_CONFIG[each_dataset].get('using_hf_api'):
                 self.datasets[each_dataset] = load_dataset(
                     *DATASET_HUGGINGFACE[each_dataset][:-1], data_dir=DATASET_CONFIG[each_dataset]['data_dir'])[DATASET_HUGGINGFACE[each_dataset][-1]]
