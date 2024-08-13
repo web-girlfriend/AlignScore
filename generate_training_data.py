@@ -21,7 +21,7 @@ DATASET_HUGGINGFACE = {
     'squad': ['squad', 'plain_text', 'train'],
     'squad_v2': ['squad_v2', 'squad_v2', 'train'],
     'paws': ['paws', 'labeled_final', 'train'],
-    'vitaminc': ['tals/vitaminc', 'v1.0', 'train'],
+    'vitaminc': ['tals/vitaminc', 'default', 'train'], # ValueError: BuilderConfig 'v1.0' not found. Available: ['default']
     'xsum': ['xsum', 'default', 'train'],
     'stsb': ['glue', 'stsb', 'train'],
     'sick': ['sick', 'default', 'train'],
